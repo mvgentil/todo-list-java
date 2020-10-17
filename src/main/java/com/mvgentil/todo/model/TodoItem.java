@@ -9,6 +9,7 @@ import javax.validation.constraints.NotBlank;
 public class TodoItem {
 	
 	private Long id;
+	
 	@NotBlank
 	private String title;
 	private boolean done;
